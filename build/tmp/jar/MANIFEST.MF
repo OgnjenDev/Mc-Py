@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Specification-Title: mcpy
+Specification-Version: 1
+Implementation-Title: mcpy-mod
+Implementation-Version: 1.0.0
+

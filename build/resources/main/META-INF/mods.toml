@@ -1,0 +1,27 @@
+modLoader = "javafml"
+loaderVersion = "[54,)"
+license = "MIT"
+
+[[mods]]
+    modId = "mcpy"
+    version = "1.0.0"
+    displayName = "McPy"
+    description = '''
+Python scripting bridge for Minecraft.
+Exposes a TCP socket server on port 25566 so Python scripts
+can control the world via mc.py.
+'''
+
+[[dependencies.mcpy]]
+    modId = "forge"
+    mandatory = true
+    versionRange = "[54,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.mcpy]]
+    modId = "minecraft"
+    mandatory = true
+    versionRange = "[1.21.5,1.22)"
+    ordering = "NONE"
+    side = "BOTH"
