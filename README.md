@@ -35,7 +35,7 @@ Getting Started
 
 Just copy mc.py into your project:
 
-git clone https://github.com/yourusername/mcpy
+git clone https://github.com/OgnjenDev/Mc-Py
 
 or simply drop the file into your script folder.
 
